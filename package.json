@@ -1,0 +1,27 @@
+{
+  "name": "termfactory",
+  "version": "0.0.1",
+  "description": "incremental inspired by kittens, darkroom, factorio",
+  "main": "dist/main.js",
+  "author": "Crindigo",
+  "license": "MIT",
+  "dependencies": {
+    "vue": "^2.1.8"
+  },
+  "devDependencies": {
+    "browserify": "^13.1.1",
+    "gulp": "^3.9.1",
+    "gulp-sourcemaps": "^1.9.1",
+    "gulp-typescript": "^3.1.3",
+    "gulp-uglify": "^2.0.0",
+    "gulp-util": "^3.0.8",
+    "tsify": "^3.0.0",
+    "typescript": "^2.1.4",
+    "vinyl-buffer": "^1.0.0",
+    "vinyl-source-stream": "^1.1.0",
+    "watchify": "^3.8.0"
+  },
+  "browser": {
+    "vue": "vue/dist/vue.common"
+  }
+}
