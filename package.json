@@ -1,5 +1,5 @@
 {
-  "name": "termfactory",
+  "name": "era",
   "version": "0.0.1",
   "description": "incremental inspired by kittens, darkroom, factorio",
   "main": "dist/main.js",
