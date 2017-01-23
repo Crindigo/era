@@ -1,0 +1,10 @@
++---------------+-------------------------------------------------------------+
+|   Your Base   |                                             |    Storage    |
++---------------+                                             +---------------+
+| [Filter]      |                                             | [Filter]      |
+| Cool Farm     |                                             | Dirt       23 |
+| My Farm 2     |                                             | Clay       44 |
+| Storage X     |                                             | Flint      14 |
+| Kiln          |                                             | BirchStick 28 |
+| CraftingTabl  |                                             | Charcoal   65 |
+| Research Lab  |                                             | Birch Wood 20 |

@@ -43,7 +43,6 @@ Natural (fruits/vegetables), Grain (wheat, corn, barley, rye, rice, oats),
 Protein (beef, pork, chicken, fish, peanuts, beans). Natural resouces can
 be foraged/farmed, grain farmed/foraged, and protein is hunted/farmed/foraged.
 
-
 # Factories
 
 Farther in the future, you can create a production line composed of multiple
@@ -61,3 +60,19 @@ are processed. As technology progresses, your community's jobs can shift from
 low-tech to high-tech like science, as old jobs can be done by machinery. So
 while later tech requires more time/resources, it will be offset somewhat by
 having more scientists.
+
+# Early-Game Glue
+
+Birch tar. Maybe craft birch log into birch bark + birch wood. Creation similar
+to charcoal. The pit requires a moderate amount of baked clay to create. Each
+crafting operation turns 100 dirt + 100 bark + 20 plant fiber = 10L of birch 
+tar over a 5 day period. May work with other bark types. This may actually be
+a little too complex for super-early, in real life it happened in late Paleo
+to early Meso.
+
+# Fluid Handling
+
+Fluid units are liters, which is great since solid storage is measured in dm^3
+already, and they are the same volume. Fluid storage items can be kept in solid
+storage, like buckets. Fluid-specific storage can also be placed for cheaper
+storage, in the form of larger tanks.
