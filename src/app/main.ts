@@ -1,5 +1,6 @@
 import { sayHello } from "./greet";
-import Vue = require("vue")
+import Vue from 'vue'
+import './sass/main.scss'
 
 function showHello(divName: string, name: string) {
     const elt = document.getElementById(divName);
@@ -7,6 +8,12 @@ function showHello(divName: string, name: string) {
 }
 
 showHello("greeting", "UglifyDelayTypeScript2");
+
+const worker = new Worker('dist/backend.js');
+worker.postMessage("hello, worker 2");
+worker.onmessage = function(e) {
+    console.log('onmessage:', e.data);
+};
 
 interface MyComponent extends Vue {
     message: string
@@ -22,7 +29,7 @@ const myComponent = {
     },
     methods: {
         onClick: function() {
-            window.alert(this.message);
+            worker.postMessage("clicked!");
         }
     },
 
