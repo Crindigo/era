@@ -24,6 +24,17 @@ Buildings don't get more expensive as you create them, however land is limited
 and it DOES get more expensive to expand the more you do it. Maybe send out
 explorers to tame the wilds, requiring weapons and armor.
 
+# Reworking Land
+
+Your territory is split up among regions. Each region has a limited amount of
+land, can hold buildings, and each has its own inventory. Everything is shared,
+buildings can pull and push to the region's shared inventory. Then, for complex
+processing chains, you connect your regions together via transport networks.
+
+Regions connect via a network of straight edges. Connection types include
+roads, train tracks, power lines, pipelines. Items/fluids are limited by speed.
+The cost to build connections is multiplied by distance.
+
 # Farming
 
 Use some land to create a farm. Farms require a farmer to automate, and each
@@ -76,3 +87,24 @@ Fluid units are liters, which is great since solid storage is measured in dm^3
 already, and they are the same volume. Fluid storage items can be kept in solid
 storage, like buckets. Fluid-specific storage can also be placed for cheaper
 storage, in the form of larger tanks.
+
+# Power Systems
+
+Possibly have multiple power systems, or energy systems, and ways to convert
+among them. Kinetic (rad/s, Nm, Nm*rad/s = J), heat (BTU, ~1000J), electric (J).
+
+Power Source: An "outlet" for a type of power. Like a wind turbine can have an 
+outlet for kinetic power. AKA "output port".
+
+Power Sink: An "inlet" for a type of power. Like a mill can accept kinetic
+power to create flour from grain. AKA "input port".
+
+Power can be transferred between different types, like kinetic power going
+into a generator to create electric power. Electric power is special in
+that one source can handle infinite sinks. However, transferring power types
+back and forth incurs a loss of efficiency.
+
+Kinetic splitter/joiner: machines that take one kinetic input and divide the
+power between multiple outputs, or take multiple inputs and combine their
+power into one output. Tiers can have different max output rates and
+efficiencies. Wood, iron, steel, tungsten.
