@@ -33,7 +33,8 @@ processing chains, you connect your regions together via transport networks.
 
 Regions connect via a network of straight edges. Connection types include
 roads, train tracks, power lines, pipelines. Items/fluids are limited by speed.
-The cost to build connections is multiplied by distance.
+The cost to build connections is multiplied by distance. Some connections need
+specific buildings, like rail depots, power substations, pumping stations.
 
 # Farming
 
